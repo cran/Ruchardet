@@ -1,7 +1,7 @@
 Package: Ruchardet
 Type: Package
 Title: R package to detect character encoding
-Version: 0.0-2
+Version: 0.0-3
 Date: 2013-03-08
 Author: Heewon Jeon
 Maintainer: Heewon Jeon <madjakarta@gmail.com>
@@ -11,10 +11,11 @@ License: MPL
 URL: https://github.com/haven-jeon/Ruchardet/
 Depends: R (>= 3.0.2)
 Suggests: testthat (>= 0.7.1)
-LinkingTo: Rcpp (>= 0.10.6)
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp (>= 0.11.0)
 SystemRequirements: GNU make
 Collate: 'RcppExports.R' 'utils.R'
-Packaged: 2013-12-19 15:25:17 UTC; gogamza
+Packaged: 2014-02-07 01:55:50 UTC; gogamza
 NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2013-12-19 19:35:23
+Date/Publication: 2014-02-07 07:49:27
