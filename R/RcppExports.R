@@ -3,8 +3,10 @@
 
 #' detect encoding of input string
 #' @param str input string
-#' @return string of encoding 
+#' @return encoding name
 #' @references \url{https://code.google.com/p/uchardet/}
+#' @export
+#' @useDynLib Ruchardet
 detectEncoding <- function(str) {
     .Call('Ruchardet_detectEncoding', PACKAGE = 'Ruchardet', str)
 }

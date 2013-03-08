@@ -9,8 +9,10 @@ using namespace Rcpp;
 
 //' detect encoding of input string
 //' @param str input string
-//' @return string of encoding 
+//' @return encoding name
 //' @references \url{https://code.google.com/p/uchardet/}
+//' @export
+//' @useDynLib Ruchardet
 // [[Rcpp::export]]
 CharacterVector detectEncoding(StringVector str){
   int inputsize = str.size();
