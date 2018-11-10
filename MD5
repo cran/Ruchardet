@@ -1,4 +1,4 @@
-505917ac33f9d36b4bbe65200bc85f6c *DESCRIPTION
+6594c5339433b47b9f8bf31c77c1a823 *DESCRIPTION
 9d4666b8963a6b56d144e0d5c3395f52 *NAMESPACE
 cbc7a588afa469df5abea249cf6d0a8d *R/RcppExports.R
 d8b6aa8be5932bb8997cb97d75d69428 *R/utils.R
@@ -14,7 +14,7 @@ d7c06b4b660d6950ba9e921e362551b9 *inst/tests/big5.txt
 e23658c3a70ad037edeac6c8880536f4 *man/detectEncoding.Rd
 c05cef6c4c5e999c45184740ff571724 *man/detectFileEncoding.Rd
 685c11ed5dee99ac285fb742189b735c *src/Makevars.in
-a4cfb6a818d8a4dbec1148afc8d3726f *src/Makevars.win
+b26ce5ecd37bedb8f9e6ef751f7350e6 *src/Makevars.win
 1e943c6fd2c4046afd475626b48fddc4 *src/RcppExports.cpp
 1526724e3c99d8a40eb5f5fa642a7031 *src/detectEncoding.cpp
 13b5389ca23bf7a746d77a67506892f4 *src/uchardet-0.0.1/AUTHORS
